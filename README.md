@@ -4,3 +4,9 @@ This code requires the `simplejson` library which can be installed with [pip](ht
 ```
 pip install simplejson
 ```
+Example:
+
+in command line:
+```
+python geocode.py -i OutputKarimAãnouz.csv -o OutputKarimAãnouzGeo.csv
+```
