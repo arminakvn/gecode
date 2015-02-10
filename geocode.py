@@ -22,7 +22,7 @@ def main(argv):
 	    result = simplejson.load(urllib.urlopen(url))
 	    print result['results'][0]['geometry']['location']
 	    if result['status'] == 'OK':
-	    	# here could be some filters that ccheck for location type such as proximity leven ...
+	    	# here could be some filters that check for location type such as proximity level ...
 	    	return result['results'][0]['geometry']['location']
 	for opt, arg in opts:
 		if opt == '-h':
