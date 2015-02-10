@@ -1,5 +1,5 @@
 # intall simplejson: pip install simplejson
-# command line: python geocode.py -i OutputKarimAãnouz.csv -o OutputKarimAãnouzGeo.csv 
+# command line: python geocode.py -i <inpout csv> -o <output csv>
 import sys, getopt
 import simplejson, urllib
 from read_csv_to_dict import read_csv, write_csv
