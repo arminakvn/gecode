@@ -38,6 +38,8 @@ def main(argv):
 	raw_matrix = read_csv(inputfile)
 	org_dist = ""
 	for each_line in raw_matrix:
+		# it seems that Organization could also be used, 
+		# maybe concatinated with some other info, for now filter for Location
 		if each_line['Tag Type'] == 'Location':
 			address = each_line['Tag Value'] 
 			latlng = geocodeLocations(address)
