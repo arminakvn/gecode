@@ -16,8 +16,8 @@ Run it with:
 python geocode -i <input.csv> -o <output.csv>
 
 ```
-__For example  __
-in command line:
+
+__For example__ in command line:
 
 ```
 python geocode.py -i OutputKarimAãnouz.csv -o OutputKarimAãnouzGeo.csv
